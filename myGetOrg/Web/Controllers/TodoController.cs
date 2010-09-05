@@ -41,31 +41,7 @@ namespace GetOrganized.Web.Controllers
         }
 
 
-        //
-        // GET: /Todo/Delete/5
 
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        //
-        // POST: /Todo/Delete/5
-
-        [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add delete logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
 
         // POST: /Todo/Create
 
@@ -81,6 +57,13 @@ namespace GetOrganized.Web.Controllers
             {
                 return View();
             }
+        }
+
+        public ActionResult  Delete(string p)
+        {
+            Todo.ThingsToBeDone.RemoveAll(t => t.Title == p);
+
+            return RedirectToAction("Index");
         }
     }
 }

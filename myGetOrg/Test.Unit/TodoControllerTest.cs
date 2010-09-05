@@ -45,32 +45,20 @@ namespace Test.Unit
             Assert.Contains(todo, Todo.ThingsToBeDone);
             Assert.AreEqual("Index", redirectToResult.RouteValues["action"]);
         }
-#if false
-        [SetUp]
-        public void setup()
-        {
-            Todo.ThingsToBeDone = new List<Todo>
-                                      {
-                                          new Todo {Title = "Get Milk"},
-                                          new Todo {Title = "Bring Home Bacon"}
-                                      };
-        }
 
         [Test]
-        public void Should_Add_Todo_Item()
+        public void Should_Delete_Todo_Item()
         {
-            var todo = new Todo
-                           {
-                               Title = "Learn more about ASP.NET MVC Controllers"
-                           };
+            var mistakeTodo = Todo.ThingsToBeDone[0];
+            var redirectToRouteResult = (RedirectToRouteResult)
+                                        new TodoController().Delete(mistakeTodo.Title);
 
-            var redirectToRouteResult =
-                (RedirectToRouteResult) new TodoController().Create(todo);
-
-            Assert.Contains(todo, Todo.ThingsToBeDone);
+            Assert.IsFalse(Todo.ThingsToBeDone.Contains(mistakeTodo));
             Assert.AreEqual("Index",
                             redirectToRouteResult.RouteValues["action"]);
         }
+    }
+#if false
 
         [Test]
         public void Should_Delete_Todo_Item()
@@ -110,4 +98,4 @@ namespace Test.Unit
         }
 #endif
     }
-}
+

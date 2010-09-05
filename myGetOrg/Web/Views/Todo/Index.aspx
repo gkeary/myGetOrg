@@ -19,13 +19,16 @@
             </th>
         </tr>
 
-    <% foreach (var item in Model) { %>
+    <% foreach (var item in Model)
+       {%>
     
         <tr>
             <td>
-                <%= Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) %> |
-                <%= Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ })%> |
-                <%= Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })%>
+                <%=Html.ActionLink("Edit", "Edit", new {/* id=item.PrimaryKey */})%> |
+                <%=Html.ActionLink("Details", "Details", new {/* id=item.PrimaryKey */})%> |
+                <%=Html.ActionLink("Delete", "Delete", new {item.Title},
+                                             new {onclick = "return confirm('Are you sure you want to delete this?');"})%>
+                <%=Html.ActionLink("Delete", "Delete", new { item.Title}, new{ onclick="return confirm('Are you xxx?');"}) %>
             </td>
             <td>
                 <%= Html.Encode(item.Completed) %>
