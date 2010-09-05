@@ -1,0 +1,21 @@
+//START:net
+C:\Development\GetOrganized\Lib> 
+  net use Z: \\192.168.0.100/$Admin /user:Administrator password
+...
+Drive Mounted Successfully.
+//END:net
+//START:hostname
+C:\Development\GetOrganized\Lib> 
+  psexec \\192.168.0.100 -u Administrator -p password hostname
+...
+hostname
+production_server_A 
+//END:hostname
+//START:msbuild
+C:\Development\GetOrganized\Lib> 
+  psexec \\192.168.0.100 -u Administrator -p password
+    C:\Windows\Microsoft.NET\Framework\v3.5\MSBuild.exe 
+		C:\ftp\upload\Build.msbuild /t:Compile
+...
+Error: C:\ftp\upload\Build.msbuild file not found  
+//END:msbuild

@@ -1,0 +1,27 @@
+<head>
+<meta http-equiv="Content-Type" 
+  content="text/html; charset=iso-8859-1" />
+<link href="../../Content/colorpicker.css" 
+  rel="Stylesheet" type="text/css" />
+<link href="../../Content/Site.css" 
+  rel="stylesheet" type="text/css" />
+<link href="../../Content/colorpicker.css" 
+  rel="stylesheet" type="text/css" /> 
+<script type="text/javascript" 
+  src="../../Scripts/jquery-1.4.1.js"></script> 
+<script type="text/javascript" 
+  src="../../Scripts/colorpicker.js"></script>
+
+<script type="text/javascript" 
+  src="../../Scripts/jquery.autocomplete.js"></script> //<label id="add.more.plugins"/>
+<link href="../../Content/jquery.autocomplete.css" 
+  rel="stylesheet" type="text/css" />
+  
+<script type="text/javascript" 
+  src="../../Scripts/jquery-ui-1.8rc3.min.js"></script>
+  
+<script type="text/javascript" 
+  src="../../Scripts/jquery.livequery.js"></script>
+
+<asp:ContentPlaceHolder ID="Head" runat="server" /> 
+</head>

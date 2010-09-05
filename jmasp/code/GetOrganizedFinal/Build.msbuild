@@ -1,0 +1,93 @@
+<Project DefaultTargets="All" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+    <Target Name="All" DependsOnTargets="Compile;Migrate;Test;LocalDeploy" />
+
+    <UsingTask AssemblyFile="lib\Migrator.MSBuild.dll" TaskName="Migrator.MSBuild.Migrate" />
+
+    <UsingTask TaskName="RemoteTask" AssemblyFile="GetOrganized\bin\GetOrganized.dll" />
+    
+    <PropertyGroup>
+    <MSBuildCommunityTasksPath>.</MSBuildCommunityTasksPath>
+    </PropertyGroup>
+    <Import Project="lib\MSBuild.Community.Tasks.Targets" />
+
+    <Target Name="All" DependsOnTargets="Compile" />
+
+    <Target Name="Compile">
+        <MSBuild Projects="GetOrganized.sln" Targets="Build" />
+    </Target>
+
+    <Target Name="Migrate" DependsOnTargets="Compile">
+        <Migrate Provider="SqlServer" Connectionstring="Database=Migration;Data Source=localhost;
+            User Id=foo;Password=foo;"
+            Migrations="GetOrganized\bin\GetOrganized.dll" />
+    </Target>
+    
+    <Target Name="Test" DependsOnTargets="Compile;Migrate">
+      <NUnit Assemblies="Test.Unit\bin\Debug\Test.Unit.dll;
+        Test.Persistence\bin\Debug\Test.Persistence.dll"
+        ToolPath="lib" />
+    </Target>
+    
+    <Target Name="LocalDeploy" DependsOnTargets="Compile;Migrate">
+
+        <PropertyGroup>
+                <VirtualDirectory>C:\inetpub\GetOrganized</VirtualDirectory>
+                <VirtualDirectoryName>GetOrganized</VirtualDirectoryName>
+        </PropertyGroup>
+
+        <WebDirectoryDelete VirtualDirectoryName="$(VirtualDirectoryName)" 
+         ContinueOnError="true" /> 
+        <RemoveDir Directories="$(VirtualDirectory)" />
+        
+        <ItemGroup>
+            <WebFiles Include="GetOrganized\**\*.*" Exclude="**\.svn\**" />
+        </ItemGroup>
+
+        <Copy SourceFiles="@(WebFiles)"
+          DestinationFolder="$(VirtualDirectory)\%(RecursiveDir)"/>
+
+        <WebDirectoryCreate VirtualDirectoryName="$(VirtualDirectoryName)"
+                        VirtualDirectoryPhysicalPath="$(VirtualDirectory)" />
+    </Target>
+    
+    <Target Name="Ftp" DependsOnTargets="Compile">
+        <ItemGroup>
+            <WebFiles Include="GetOrganized\**\*.*"/>
+        </ItemGroup>
+        
+        <Zip Files="@(WebFiles)" ZipFileName="GetOrganized.zip" />
+        <FtpUpload LocalFile="GetOrganized.zip" RemoteUri="ftp://localhost/" 
+          RemoteFiles="GetOrganized.zip"/>
+          
+        <FtpUpload LocalFile="Build.bat" 
+          RemoteUri="ftp://192.168.0.1" RemoteFiles="Build.bat" />
+          
+        <FtpUpload LocalFile="Build.msbuild" 
+          RemoteUri="ftp://192.168.0.1" RemoteFiles="Build.msbuild"/>
+
+        <FtpUpload LocalFile="Lib\MSBuild.Community.Tasks.dll" 
+          RemoteUri="ftp://192.168.0.1" 
+          RemoteFiles="MSBuild.Community.Tasks.dll"/>  
+          
+        <FtpUpload LocalFile="Lib\MSBuild.Community.Tasks.targets" 
+          RemoteUri="ftp://192.168.0.1" 
+          RemoteFiles="MSBuild.Community.Tasks.targets"/>
+          
+        <RemoteTask RemoteIP="192.168.0.1"
+          UserName="Administrator"
+          Password="Password"
+          ExecutableLocation="Lib"
+          RemoteCommand="C:\ftp\upload\Build.bat"
+          WorkingDirectory="C:\ftp\upload\"
+          Parameters="Publish" />  
+    </Target>
+    
+    <Target Name="Publish">
+        <Unzip ZipFileName="GetOrganized.zip" 
+            TargetDirectory="C:\inetpub\GetOrganized" />
+
+        <CallTargets Targets="LocalDeploy"/>
+    </Target>
+
+</Project>

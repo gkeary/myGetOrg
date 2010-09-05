@@ -1,0 +1,9 @@
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\Test.Unit\bin\Debug\Test.Unit.dll
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\Test.Unit\bin\Debug\Test.Unit.pdb
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\Test.Unit\bin\Debug\nunit.framework.dll
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\Test.Unit\bin\Debug\nunit.framework.xml
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\Test.Unit\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\Test.Unit\obj\Debug\Test.Unit.dll
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\Test.Unit\obj\Debug\Test.Unit.pdb
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\Test.Unit\bin\Debug\Web.dll
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\Test.Unit\bin\Debug\Web.pdb

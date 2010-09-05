@@ -1,0 +1,7 @@
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\GetOrganized\bin\GetOrganized.dll
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\GetOrganized\bin\GetOrganized.pdb
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\GetOrganized\bin\nunit.core.dll
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\GetOrganized\bin\nunit.core.interfaces.dll
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\GetOrganized\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\GetOrganized\obj\Debug\GetOrganized.dll
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\GetOrganized\obj\Debug\GetOrganized.pdb

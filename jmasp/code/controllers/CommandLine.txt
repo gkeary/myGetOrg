@@ -1,0 +1,14 @@
+Setting environment for using Microsoft Visual Studio 2008 x86 tools.
+      
+C:\Program Files\Microsoft Visual Studio 9.0\VC>
+  cd C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727
+
+C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727>
+    aspnet_regsql -A mr -d GetOrganized -E
+
+Start adding the following features:
+Membership
+RoleManager
+........
+Finished.
+C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727>

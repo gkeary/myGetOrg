@@ -1,0 +1,2 @@
+<%=   //.NET 3.5 syntax   %>
+<%:    //.NET 4.0 syntax   %>

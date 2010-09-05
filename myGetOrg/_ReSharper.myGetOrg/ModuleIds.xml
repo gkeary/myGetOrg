@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="F2A299E1-0F2B-40EC-8384-3CFF28E4E694" ModuleId="GetOrganized" />
+  <Module PersistentId="4748D697-4B94-44D7-B3D9-9CE4196BB2D3" ModuleId="Web" />
+  <Module PersistentId="F60A4395-AE7B-43AD-B701-BF55BD773363" ModuleId="Test.Unit" />
+  <Module PersistentId="BBF56391-50FB-4A82-9652-A0DC8CC21103" ModuleId="Test.Unit_1" />
+</Modules>

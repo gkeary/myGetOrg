@@ -1,0 +1,6 @@
+//START:css
+<link rel="stylesheet" type="text/css" href="FileName.css" />
+//END:css
+//START:javascript
+<script type="javascript" src="FileName.js"></script>
+//END:javascript

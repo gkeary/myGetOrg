@@ -1,0 +1,13 @@
+<head>
+<!-- omitted other scripts --> 
+<link href="../../Content/colorpicker.css" 
+  rel="Stylesheet" type="text/css" />
+
+<script type="text/javascript" 
+  src="<%=ResolveUrl("~/Scripts/jquery-1.4.1.js") %>">
+</script> 
+<script type="text/javascript" 
+  src="<%=ResolveUrl("~/Scripts/colorpicker.js") %>">
+</script>
+<asp:ContentPlaceHolder ID="Head" runat="server" /> 
+</head>

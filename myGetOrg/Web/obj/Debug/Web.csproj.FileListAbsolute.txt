@@ -1,0 +1,5 @@
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\Web\bin\Web.dll
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\Web\bin\Web.pdb
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\Web\obj\Debug\Web.dll
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\Web\obj\Debug\Web.pdb

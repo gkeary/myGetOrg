@@ -1,0 +1,6 @@
+//START:one
+&lt;SCRIPT&gt;alert(\&quot;attacked!\&quot;)&lt;/SCRIPT&gt;
+//END:one
+//START:two
+<%: //do stuff here :%>
+//END:two

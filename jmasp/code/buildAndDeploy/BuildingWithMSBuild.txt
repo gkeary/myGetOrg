@@ -1,0 +1,23 @@
+//START:one
+C:\Development\GetOrganized>
+  C:\Windows\Microsoft.NET\Framework\v3.5\MSBuild.exe GetOrganized.sln
+...
+compilation output omitted
+...
+Build succeeded.
+0 Error(s)
+
+Time Elapsed 00:00:36.51
+//END:one
+//START:two
+C:\Development\GetOrganized>
+  C:\Windows\Microsoft.NET\Framework\v3.5\MSBuild.exe 
+  Build.msbuild /t:Compile
+...
+compilation output omitted
+...
+Build succeeded.
+0 Error(s)
+
+Time Elapsed 00:00:30.43
+//END:two

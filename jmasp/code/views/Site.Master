@@ -1,0 +1,56 @@
+<%@ Master Language="C#" 
+  Inherits="System.Web.Mvc.ViewMasterPage" %>
+<%@ Import Namespace="Helpers" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" 
+  content="text/html; charset=iso-8859-1" />
+<link href="<%=ResolveUrl("~/Content/colorpicker.css") %>" 
+  rel="Stylesheet" type="text/css" />
+<link href="<%=ResolveUrl("~/Content/Site.css") %>" 
+  rel="stylesheet" type="text/css" />
+<link href="<%=ResolveUrl("~/Content/colorpicker.css") %>"
+  rel="stylesheet" type="text/css" /> //<label id="add.three.lines"/>
+<script type="text/javascript" 
+  src="<%=ResolveUrl("~/Scripts/jquery-1.4.1.js") %>"></script> 
+<script type="text/javascript" 
+  src="<%=ResolveUrl("~/Scripts/colorpicker.js") %>"></script>
+<asp:ContentPlaceHolder ID="Head" runat="server" />  //<label id="rename.id.to.head"/>
+</head>
+
+<body>
+  <div class="page">
+  
+  <div id="header">
+    <div id="title">
+        <h1>Get Organized</h1> //<label id="header.rename"/>
+    </div>
+           
+    <div id="logindisplay">
+      <% Html.RenderPartial("LogonUserControl"); %>
+    </div> 
+          
+    <div id="menucontainer">
+      <ul id="menu">              
+        <%= Html.MenuItem("Home", "Index", "Home")%>  //<label id="add.menu.items"/>
+        <%= Html.MenuItem("My Todos", "Index", "Todo")%>
+        <%= Html.MenuItem("Thoughts", "Index", "Thought")%>
+        <%= Html.MenuItem("Process Thoughts", 
+  "Process", "Thought")%>
+      </ul>
+    </div>
+  </div>
+  
+  <div id="main">
+    <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+  
+    <div id="footer">
+        GetOrganized &copy; Copyright 2010
+    </div>
+  </div>
+</div>
+</body>
+</html>
