@@ -24,7 +24,7 @@
     
         <tr>
             <td>
-                <%=Html.ActionLink("Edit", "Edit", new {/* id=item.PrimaryKey */})%> |
+                <%=Html.ActionLink("Edit", "Edit", new {item.Title})%> |
                 <%=Html.ActionLink("Details", "Details", new {/* id=item.PrimaryKey */})%> |
                 <%=Html.ActionLink("Delete", "Delete", new {item.Title},
                                              new {onclick = "return confirm('Are you sure you want to delete this?');"})%>

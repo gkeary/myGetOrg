@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using System;
+using System.Web.Mvc;
 using Web.Models;
 using GetOrganized.Web.Models;
 
@@ -32,17 +33,6 @@ namespace GetOrganized.Web.Controllers
         }
 
 
-        //
-        // GET: /Todo/Edit/5
-
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-
-
-
         // POST: /Todo/Create
 
         [HttpPost]
@@ -64,6 +54,30 @@ namespace GetOrganized.Web.Controllers
             Todo.ThingsToBeDone.RemoveAll(t => t.Title == p);
 
             return RedirectToAction("Index");
+        }
+
+        public ActionResult Edit(string title)
+        {
+            ViewData.Model = Todo.ThingsToBeDone.Find(todo => todo.Title == title);
+            return View();
+        }
+
+        // POST:  /Todo/Edit/somethingToDo
+
+        [HttpPost]
+        public ActionResult Edit(string oldTitle, Todo item)
+        {
+            try
+            {
+                Todo.ThingsToBeDone.RemoveAll(aTodo => aTodo.Title == oldTitle);
+                Todo.ThingsToBeDone.Add(item);
+
+                return RedirectToAction("Index");
+            }
+            catch (Exception)
+            {
+                return View();    
+            } 
         }
     }
 }

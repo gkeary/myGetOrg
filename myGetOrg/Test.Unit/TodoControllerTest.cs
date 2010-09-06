@@ -57,6 +57,28 @@ namespace Test.Unit
             Assert.AreEqual("Index",
                             redirectToRouteResult.RouteValues["action"]);
         }
+
+        [Test]
+        public void Should_Load_A_Todo_Item_For_Editing()
+        {
+            var editTodo = Todo.ThingsToBeDone[0];
+            var viewResult = (ViewResult) new TodoController().Edit(editTodo.Title);
+
+            Assert.AreEqual(editTodo, viewResult.ViewData.Model);
+        }
+
+        [Test]
+        public void Should_Edit_Todo_Item()
+        {
+            var editedTodo = new Todo {Title = "Get A Lot More Milk"};
+
+            var redirectToResult = (RedirectToRouteResult) new TodoController().Edit("Get Milk", editedTodo);
+
+            Assert.Contains(editedTodo, Todo.ThingsToBeDone);
+            Assert.AreEqual("Index",
+                            redirectToResult.RouteValues["action"]);
+        }
+
     }
 #if false
 
