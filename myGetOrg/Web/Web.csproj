@@ -79,6 +79,7 @@
     <Content Include="Views\Todo\Create.aspx" />
     <Content Include="Views\Todo\Edit.aspx" />
     <Content Include="Views\Todo\Index.aspx" />
+    <Content Include="Views\Topic\Create.aspx" />
     <Content Include="Views\Topic\Index.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

@@ -35,7 +35,7 @@ namespace GetOrganized.Web.Models
             return Id; // required for assisting with collections
         }
 
-        public object ColorInWebHex()
+        public string ColorInWebHex()
         {
             return ColorTranslator.ToHtml(Color);
         }

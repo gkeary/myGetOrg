@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -16,6 +17,31 @@ namespace GetOrganized.Web.Controllers
         {
             ViewData.Model = Topic.Topics;
             return View();
+        }
+
+        //
+        // GET: /Topic/Create
+
+        public ActionResult Create()
+        {
+            return View();
+        } 
+
+        //
+        // POST: /Topic/Create
+
+        [HttpPost]
+        public ActionResult Create(FormCollection collection)
+        {
+            var newTopic = new Topic();
+            newTopic.Id = Convert.ToInt32(collection["Id"]);
+            newTopic.Name = collection["Name"];
+            newTopic.Color =
+                ColorTranslator.FromHtml("#" + collection["Color"]);
+
+            Topic.Topics.Add(newTopic);
+            TempData["message"] = "Your topic has been added successfully.";
+            return RedirectToAction("Index");
         }
 #if false
         //

@@ -10,44 +10,48 @@
     <RecentFiles>
       <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
       <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Models/f:Todo.cs" caret="167" fromTop="9" />
-      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Todo/f:Index.aspx" caret="0" fromTop="0" />
-      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Home/f:Index.aspx" caret="0" fromTop="0" />
-      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Shared/f:Site.Master" caret="553" fromTop="14" />
       <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Todo/f:Create.aspx" caret="625" fromTop="15" />
-      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/f:TodoControllerTest.cs" caret="2321" fromTop="14" />
-      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Controllers/f:TodoController.cs" caret="844" fromTop="0" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Home/f:Index.aspx" caret="0" fromTop="0" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Todo/f:Index.aspx" caret="712" fromTop="10" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Controllers/f:TodoController.cs" caret="1225" fromTop="13" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Todo/f:Edit.aspx" caret="352" fromTop="9" />
+      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/f:TodoControllerTest.cs" caret="238" fromTop="10" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Models/f:Topic.cs" caret="1091" fromTop="19" />
+      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/d:Models/f:TopicTest.cs" caret="1202" fromTop="31" />
+      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/f:TopicControllerTest.cs" caret="1686" fromTop="45" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Topic/f:Index.aspx" caret="592" fromTop="0" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Shared/f:Site.Master" caret="2052" fromTop="18" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Topic/f:Create.aspx" caret="1886" fromTop="15" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Controllers/f:TopicController.cs" caret="726" fromTop="19" />
     </RecentFiles>
     <RecentEdits>
-      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
-      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/f:TodoControllerTest.cs" caret="0" fromTop="0" />
-      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/f:TodoControllerTest.cs" caret="3637" fromTop="16" />
-      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Models/f:Todo.cs" caret="467" fromTop="15" />
-      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Models/f:Todo.cs" caret="379" fromTop="14" />
-      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/f:TodoControllerTest.cs" caret="3637" fromTop="18" />
-      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/f:TodoControllerTest.cs" caret="3637" fromTop="26" />
-      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Controllers/f:TodoController.cs" caret="40" fromTop="1" />
-      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Controllers/f:TodoController.cs" caret="255" fromTop="13" />
-      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Shared/f:Site.Master" caret="921" fromTop="25" />
-      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/f:TodoControllerTest.cs" caret="3637" fromTop="14" />
-      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/f:TodoControllerTest.cs" caret="3637" fromTop="17" />
-      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Controllers/f:TodoController.cs" caret="1657" fromTop="20" />
-      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Controllers/f:TodoController.cs" caret="1657" fromTop="3" />
-      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Controllers/f:TodoController.cs" caret="1299" fromTop="6" />
-      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/f:TodoControllerTest.cs" caret="3637" fromTop="19" />
-      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/f:TodoControllerTest.cs" caret="3637" fromTop="13" />
-      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/f:TodoControllerTest.cs" caret="3637" fromTop="8" />
-      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/f:TodoControllerTest.cs" caret="271" fromTop="11" />
-      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/f:TodoControllerTest.cs" caret="3637" fromTop="15" />
-      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/f:TodoControllerTest.cs" caret="3005" fromTop="13" />
-      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/f:TodoControllerTest.cs" caret="1426" fromTop="21" />
-      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/f:TodoControllerTest.cs" caret="3641" fromTop="31" />
-      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Controllers/f:TodoController.cs" caret="1241" fromTop="10" />
-      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Controllers/f:TodoController.cs" caret="1461" fromTop="22" />
-      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Controllers/f:TodoController.cs" caret="768" fromTop="4" />
-      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Controllers/f:TodoController.cs" caret="628" fromTop="13" />
-      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Todo/f:Create.aspx" caret="513" fromTop="13" />
-      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Todo/f:Create.aspx" caret="867" fromTop="22" />
-      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/f:TodoControllerTest.cs" caret="550" fromTop="14" />
+      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/d:Models/f:TopicTest.cs" caret="1229" fromTop="31" />
+      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/d:Models/f:TopicTest.cs" caret="1202" fromTop="31" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Models/f:Topic.cs" caret="719" fromTop="5" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Topic/f:Index.aspx" caret="404" fromTop="8" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Topic/f:Index.aspx" caret="1257" fromTop="18" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Topic/f:Index.aspx" caret="1179" fromTop="18" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Topic/f:Index.aspx" caret="1159" fromTop="18" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Controllers/f:TopicController.cs" caret="1142" fromTop="24" />
+      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/f:TopicControllerTest.cs" caret="1695" fromTop="30" />
+      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/f:TopicControllerTest.cs" caret="768" fromTop="20" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Models/f:Topic.cs" caret="1116" fromTop="21" />
+      <File id="BBF56391-50FB-4A82-9652-A0DC8CC21103/f:TopicControllerTest.cs" caret="1686" fromTop="27" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Controllers/f:TopicController.cs" caret="446" fromTop="21" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Controllers/f:TopicController.cs" caret="572" fromTop="28" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Shared/f:Site.Master" caret="412" fromTop="7" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Shared/f:Site.Master" caret="1130" fromTop="14" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Shared/f:Site.Master" caret="2543" fromTop="19" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Shared/f:Site.Master" caret="1499" fromTop="19" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Shared/f:Site.Master" caret="1499" fromTop="15" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Shared/f:Site.Master" caret="1499" fromTop="11" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Shared/f:Site.Master" caret="1499" fromTop="8" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Shared/f:Site.Master" caret="2052" fromTop="17" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Shared/f:Site.Master" caret="1830" fromTop="14" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Shared/f:Site.Master" caret="2052" fromTop="18" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Topic/f:Create.aspx" caret="241" fromTop="1" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Topic/f:Create.aspx" caret="362" fromTop="6" />
+      <File id="4748D697-4B94-44D7-B3D9-9CE4196BB2D3/d:Views/d:Topic/f:Create.aspx" caret="1886" fromTop="15" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -68,46 +72,165 @@
       <Item value="using" priority="4" />
       <Item value="NUnit.Core" priority="1" />
       <Item value="GetOrganized" priority="1" />
-      <Item value="ViewData" priority="0" />
+      <Item value="ViewData" priority="3" />
       <Item value="TodoController`0" priority="2" />
       <Item value="Web" priority="1" />
       <Item value="Models" priority="1" />
-      <Item value="Todo`0" priority="6" />
-      <Item value="var" priority="2" />
-      <Item value="ViewResult`0" priority="1" />
-      <Item value="new" priority="4" />
-      <Item value="Assert`0" priority="3" />
-      <Item value="string" priority="0" />
-      <Item value="public" priority="1" />
-      <Item value="void" priority="1" />
+      <Item value="Todo`0" priority="14" />
+      <Item value="var" priority="18" />
+      <Item value="ViewResult`0" priority="3" />
+      <Item value="new" priority="21" />
+      <Item value="Assert`0" priority="14" />
+      <Item value="string" priority="1" />
+      <Item value="public" priority="14" />
+      <Item value="void" priority="8" />
       <Item value="ITempDataProvider`0" priority="1" />
       <Item value="Completed" priority="0" />
       <Item value="false" priority="0" />
-      <Item value="Title" priority="1" />
-      <Item value="RedirectToRouteResult`0" priority="1" />
-      <Item value="todo" priority="1" />
+      <Item value="Title" priority="2" />
+      <Item value="RedirectToRouteResult`0" priority="5" />
+      <Item value="todo" priority="2" />
       <Item value="List`0" priority="0" />
-      <Item value="Framework" priority="0" />
-      <Item value="SetUp" priority="0" />
+      <Item value="Framework" priority="2" />
+      <Item value="SetUp" priority="1" />
+      <Item value="mistakeTodo" priority="0" />
+      <Item value="this" priority="2" />
+      <Item value="ref" priority="0" />
+      <Item value="r" priority="0" />
+      <Item value="t" priority="0" />
+      <Item value="ActionResult`0" priority="0" />
+      <Item value="return" priority="6" />
+      <Item value="RedirectToAction`0" priority="2" />
+      <Item value="object" priority="1" />
+      <Item value="Html" priority="1" />
+      <Item value="RedirectToRouteResult" priority="1" />
+      <Item value="ViewEngineCollection`0" priority="0" />
+      <Item value="editTodo" priority="0" />
+      <Item value="viewResult" priority="0" />
+      <Item value="editedTodo" priority="1" />
+      <Item value="try" priority="0" />
+      <Item value="aTodo" priority="0" />
+      <Item value="oldTitle" priority="0" />
+      <Item value="item" priority="1" />
+      <Item value="View`0" priority="0" />
+      <Item value="Test" priority="3" />
+      <Item value="TopicControllerTest`0" priority="1" />
+      <Item value="Should_Have_List_Of_Topics_With_Name_And_Color`0" priority="0" />
+      <Item value="topic" priority="0" />
+      <Item value="Topic`0" priority="8" />
+      <Item value="model" priority="1" />
+      <Item value="static" priority="0" />
+      <Item value="List" priority="0" />
+      <Item value="List&lt;Topic&gt;" priority="0" />
+      <Item value="Topic" priority="1" />
+      <Item value="ConsoleColor`0" priority="3" />
+      <Item value="Color`0" priority="5" />
+      <Item value="int" priority="0" />
+      <Item value="override" priority="1" />
+      <Item value="obj" priority="0" />
+      <Item value="as" priority="0" />
+      <Item value="other" priority="3" />
+      <Item value="Id" priority="5" />
+      <Item value="Equals`0" priority="0" />
+      <Item value="Name" priority="4" />
+      <Item value="TopicController`0" priority="1" />
+      <Item value="decimal" priority="0" />
+      <Item value="private" priority="0" />
+      <Item value="workTopic" priority="1" />
+      <Item value="Color" priority="5" />
+      <Item value="anotherWorkTopic" priority="0" />
+      <Item value="aShadeOfRedTopic" priority="0" />
+      <Item value="newTopic" priority="3" />
+      <Item value="Convert`0" priority="0" />
+      <Item value="collection" priority="2" />
+      <Item value="TempData" priority="0" />
+      <Item value="ColorTranslator`0" priority="0" />
+      <Item value="FormCollection`0" priority="0" />
+      <Item value="formValues" priority="1" />
+      <Item value="professionalDevelopment" priority="2" />
+      <Item value="controller" priority="1" />
+      <Item value="result" priority="0" />
+      <Item value="ResolveUrl`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Web.Mvc.ViewDataDictionary">
-      <Item value="Model" priority="0" />
+      <Item value="Model" priority="4" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@GetOrganized.Web.Models.Todo">
-      <Item value="ThingsToBeDone" priority="3" />
+      <Item value="ThingsToBeDone" priority="10" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:GetOrganized.Web.Controllers.TodoController">
       <Item value="Create`0" priority="1" />
+      <Item value="Delete`0" priority="0" />
+      <Item value="Edit`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
-      <Item value="AreEqual`0" priority="1" />
-      <Item value="Contains`0" priority="0" />
+      <Item value="AreEqual`0" priority="9" />
+      <Item value="Contains`0" priority="2" />
+      <Item value="IsFalse`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.String">
       <Item value="Empty" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Web.Mvc.ViewResult">
       <Item value="View" priority="0" />
+      <Item value="ViewData" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GetOrganized.Web.Models.Todo">
+      <Item value="Title" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Contains`0" priority="0" />
+      <Item value="Remove`0" priority="2" />
+      <Item value="Find`0" priority="0" />
+      <Item value="RemoveAll`0" priority="0" />
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="ActionLink`0" priority="0" />
+      <Item value="LabelFor`2" priority="0" />
+      <Item value="MenuItem`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="Red" priority="0" />
+      <Item value="White" priority="1" />
+      <Item value="DarkRed" priority="0" />
+      <Item value="FromArgb`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Test.Unit.Models.Topic">
+      <Item value="Id" priority="0" />
+      <Item value="Color" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Color">
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GetOrganized.Web.Models.Topic">
+      <Item value="Color" priority="1" />
+      <Item value="ColorInWebHex`0" priority="1" />
+      <Item value="Id" priority="1" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt32`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@GetOrganized.Web.Models.Topic">
+      <Item value="Topics" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.ColorTranslator">
+      <Item value="FromHtml`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.FormCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GetOrganized.Web.Controllers.TopicController">
+      <Item value="Create`0" priority="0" />
+      <Item value="TempData" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.RedirectToRouteResult">
+      <Item value="RouteValues" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>
