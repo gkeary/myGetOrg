@@ -12,6 +12,7 @@ namespace Web.Controllers
         public ActionResult Index()
         {
             ViewData["Message"] = "Welcome to ASP.NET MVC!";
+            ViewData["Username"] = User.Identity.Name;
 
             return View();
         }

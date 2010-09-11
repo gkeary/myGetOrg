@@ -1,6 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{62943F55-898C-4A29-8F69-93E17E7E318E}"
+	ProjectSection(SolutionItems) = preProject
+		Build.msbuild = Build.msbuild
+	EndProjectSection
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Unit", "Test.Unit\Test.Unit.csproj", "{95B97246-A522-412D-9DA8-A305A540C580}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "GetOrganized\Web.csproj", "{8DD606B6-6F0B-46D4-8F2B-8B5AD0F4BDD0}"
@@ -8,11 +13,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Persistence", "Test.Persistence\Test.Persistence.csproj", "{C224766C-D57A-42B8-AB3B-BD46C41FD1D6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Integration", "Test.Integration\Test.Integration.csproj", "{B0421C1B-7F94-4C0F-92B2-197D538CA735}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{62943F55-898C-4A29-8F69-93E17E7E318E}"
-	ProjectSection(SolutionItems) = preProject
-		Build.msbuild = Build.msbuild
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

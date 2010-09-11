@@ -1,0 +1,44 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="ViewData" priority="0" />
+      <Item value="User" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IPrincipal">
+      <Item value="Identity" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IIdentity">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="95B97246-A522-412D-9DA8-A305A540C580/d:Controller/f:TodoControllerTest.cs" caret="1565" fromTop="0" />
+      <File id="8DD606B6-6F0B-46D4-8F2B-8B5AD0F4BDD0/f:Web.config" caret="0" fromTop="0" />
+      <File id="95B97246-A522-412D-9DA8-A305A540C580/d:Controller/f:SessionControllerTest.cs" caret="1085" fromTop="26" />
+      <File id="8DD606B6-6F0B-46D4-8F2B-8B5AD0F4BDD0/d:Controllers/f:ThoughtController.cs" caret="1338" fromTop="10" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="95B97246-A522-412D-9DA8-A305A540C580/d:Controller/f:SessionControllerTest.cs" caret="0" fromTop="0" />
+      <File id="95B97246-A522-412D-9DA8-A305A540C580/d:Controller/f:TodoControllerTest.cs" caret="0" fromTop="0" />
+      <File id="8DD606B6-6F0B-46D4-8F2B-8B5AD0F4BDD0/d:Controllers/f:ThoughtController.cs" caret="1338" fromTop="10" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.7\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

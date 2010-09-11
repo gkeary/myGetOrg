@@ -79,5 +79,29 @@ namespace GetOrganized.Web.Controllers
                 return View();    
             } 
         }
+
+        public ActionResult Convert(Thought thought, string outcome)
+        {
+            var newToDo =
+                new Todo
+                  {
+                     Title = thought.Name,
+                     Outcome = outcome,
+                     Topic = Topic.Topics.Find(t => 
+                         t.Id == thought.Topic.Id
+                     )
+                  };
+            CreateTodo(newToDo);
+
+            Thought.Thoughts.RemoveAll(
+                thoughtToRemove =>
+                thoughtToRemove.Name == thought.Name);
+            return RedirectToAction("Process", "Thought");
+        }
+        
+        private void CreateTodo(Todo todo)
+        {
+            Todo.ThingsToBeDone.Add(todo);
+        }
     }
 }

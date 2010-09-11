@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="GetOrganized">
+</Property><Property Name="Solution File" Value="C:\Users\gkeary\sandbox\GetOrganized\jmasp\code\GetOrganizedFinal\GetOrganized.sln">
+</Property><Property Name="Date" Value="Friday, September 10, 2010">
+</Property><Property Name="Time" Value="5:42 AM">
+</Property></Properties><Event ErrorLevel="0" Project="Test.Unit" Source="Test.Unit\Test.Unit.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Test.Unit" Source="Test.Unit\Test.Unit.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Web" Source="GetOrganized\Web.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Web" Source="GetOrganized\Web.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Test.Persistence" Source="Test.Persistence\Test.Persistence.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Test.Persistence" Source="Test.Persistence\Test.Persistence.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Test.Integration" Source="Test.Integration\Test.Integration.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Test.Integration" Source="Test.Integration\Test.Integration.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="GetOrganized.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="GetOrganized.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Test.Unit" Source="Test.Unit\Test.Unit.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Web" Source="GetOrganized\Web.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Test.Persistence" Source="Test.Persistence\Test.Persistence.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Test.Integration" Source="Test.Integration\Test.Integration.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
