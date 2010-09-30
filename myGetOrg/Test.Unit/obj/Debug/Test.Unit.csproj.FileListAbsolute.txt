@@ -7,3 +7,6 @@ C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\Test.Unit\obj\Debug\Test.Unit.dll
 C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\Test.Unit\obj\Debug\Test.Unit.pdb
 C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\Test.Unit\bin\Debug\Web.dll
 C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\Test.Unit\bin\Debug\Web.pdb
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\Test.Unit\bin\Debug\MvcContrib.TestHelper.dll
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\Test.Unit\bin\Debug\MvcContrib.dll
+C:\Users\gkeary\sandbox\GetOrganized\myGetOrg\Test.Unit\bin\Debug\Rhino.Mocks.dll

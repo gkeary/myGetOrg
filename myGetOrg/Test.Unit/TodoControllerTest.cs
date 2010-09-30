@@ -3,6 +3,7 @@ using GetOrganized.Web.Controllers;
 using GetOrganized.Web.Models;
 using NUnit.Framework;
 using System.Collections.Generic;
+using MvcContrib.TestHelper;
 
 namespace Test.Unit
 {
@@ -39,6 +40,21 @@ namespace Test.Unit
         public void Should_Add_Todo_Item()
         {
             var todo = new Todo { Title = "Learn to Use Alt-Enter" };
+
+            var sessionSummary = new SessionSummary();
+            sessionSummary.AddedTodos.Add(todo);
+
+            var todoController = new TodoController();
+            var builder = new TestControllerBuilder();
+            builder.InitializeController(todoController);
+
+            todoController.Create(todo).
+                AssertActionRedirect().ToAction("Index");
+            Assert.Contains(todo, Todo.ThingsToBeDone);
+
+            Assert.AreEqual(sessionSummary,
+                 todoController.Session["SessionSummary"]);
+
 
             var redirectToResult = (RedirectToRouteResult)new TodoController().Create(todo);
 

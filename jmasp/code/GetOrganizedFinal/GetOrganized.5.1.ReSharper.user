@@ -20,10 +20,12 @@
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="95B97246-A522-412D-9DA8-A305A540C580/d:Controller/f:TodoControllerTest.cs" caret="1565" fromTop="0" />
       <File id="8DD606B6-6F0B-46D4-8F2B-8B5AD0F4BDD0/f:Web.config" caret="0" fromTop="0" />
       <File id="95B97246-A522-412D-9DA8-A305A540C580/d:Controller/f:SessionControllerTest.cs" caret="1085" fromTop="26" />
       <File id="8DD606B6-6F0B-46D4-8F2B-8B5AD0F4BDD0/d:Controllers/f:ThoughtController.cs" caret="1338" fromTop="10" />
+      <File id="95B97246-A522-412D-9DA8-A305A540C580/d:Controller/f:ThoughtControllerTest.cs" caret="1288" fromTop="7" />
+      <File id="8DD606B6-6F0B-46D4-8F2B-8B5AD0F4BDD0/d:Gateway/f:BloggerGateway.cs" caret="0" fromTop="0" />
+      <File id="95B97246-A522-412D-9DA8-A305A540C580/d:Controller/f:TodoControllerTest.cs" caret="1341" fromTop="19" />
     </RecentFiles>
     <RecentEdits>
       <File id="95B97246-A522-412D-9DA8-A305A540C580/d:Controller/f:SessionControllerTest.cs" caret="0" fromTop="0" />

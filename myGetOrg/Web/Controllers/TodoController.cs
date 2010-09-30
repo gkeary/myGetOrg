@@ -41,6 +41,7 @@ namespace GetOrganized.Web.Controllers
             try
             {
                 Todo.ThingsToBeDone.Add(todo);
+
                 return RedirectToAction("Index");
             }
             catch
@@ -49,7 +50,7 @@ namespace GetOrganized.Web.Controllers
             }
         }
 
-        public ActionResult  Delete(string p)
+        public ActionResult Delete(string p)
         {
             Todo.ThingsToBeDone.RemoveAll(t => t.Title == p);
 
@@ -76,8 +77,8 @@ namespace GetOrganized.Web.Controllers
             }
             catch (Exception)
             {
-                return View();    
-            } 
+                return View();
+            }
         }
 
         public ActionResult Convert(Thought thought, string outcome)
@@ -85,11 +86,11 @@ namespace GetOrganized.Web.Controllers
             var newToDo =
                 new Todo
                   {
-                     Title = thought.Name,
-                     Outcome = outcome,
-                     Topic = Topic.Topics.Find(t => 
-                         t.Id == thought.Topic.Id
-                     )
+                      Title = thought.Name,
+                      Outcome = outcome,
+                      Topic = Topic.Topics.Find(t =>
+                          t.Id == thought.Topic.Id
+                      )
                   };
             CreateTodo(newToDo);
 
@@ -98,10 +99,16 @@ namespace GetOrganized.Web.Controllers
                 thoughtToRemove.Name == thought.Name);
             return RedirectToAction("Process", "Thought");
         }
-        
+
         private void CreateTodo(Todo todo)
         {
             Todo.ThingsToBeDone.Add(todo);
+
+            if (Session["SessionSummary"] == null)
+                Session["SessionSummar"] = new SessionSummary();
+
+            var summary = ((SessionSummary)Session["SessionSummary"]);
+            summary.AddedTodos.Add(todo);
         }
     }
 }
